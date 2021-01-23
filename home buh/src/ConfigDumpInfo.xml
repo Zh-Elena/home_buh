@@ -24,7 +24,7 @@
 		<Metadata name="Catalog.Продукты" id="d33d2841-3afd-43ed-90e1-fc5b87faf7dd" configVersion="f4a3ee64baf01644841230518106b91e00000000"/>
 		<Metadata name="Catalog.СтатьиДвиженияДС" id="4143ea7e-fefc-4359-9483-8e254f4a6f06" configVersion="c88bfdb6de211c499dec449883b84f5e00000000"/>
 		<Metadata name="Catalog.СтатьиДвиженияДС.Predefined" id="4143ea7e-fefc-4359-9483-8e254f4a6f06.1c" configVersion="616234aa9153b54d8939a0b63204d56600000000"/>
-		<Metadata name="Configuration.ДомашняяБухгалтерия2021" id="6f4cb39d-4726-47cd-af99-5e64e7f302db" configVersion="2ae8d8e5f0d9fd4c9d10f5e1cf43f30800000000"/>
+		<Metadata name="Configuration.ДомашняяБухгалтерия2021" id="6f4cb39d-4726-47cd-af99-5e64e7f302db" configVersion="d040e06fab02c04386bdce98679d542500000000"/>
 		<Metadata name="Document.ПереводМеждуСчетами" id="a20546e4-f03a-4161-a6b0-54f891a9bcd4" configVersion="31f0c84a7e6d0c4eac1627f323f8ba7d00000000">
 			<Metadata name="Document.ПереводМеждуСчетами.Attribute.СчетИсточник" id="666fb418-5c69-489c-bd58-5ac3a18a3686"/>
 			<Metadata name="Document.ПереводМеждуСчетами.Attribute.Сумма" id="69dc4957-1fca-4481-adc2-19fedb77bf6b"/>
@@ -111,6 +111,8 @@
 		<Metadata name="Report.ПотребностьВПродуктах" id="6ba7a618-6e74-456b-acb3-46d3e91ca5d0" configVersion="fb0293a0bf0315488ec7b93504e3ebde00000000"/>
 		<Metadata name="Report.ПотребностьВПродуктах.Template.ОсновнаяСхемаКомпоновкиДанных" id="42b01fe3-adcd-4317-aff5-6f5f2da23abd" configVersion="1531debbdda07249974ee04d7caa50ae00000000"/>
 		<Metadata name="Report.ПотребностьВПродуктах.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="42b01fe3-adcd-4317-aff5-6f5f2da23abd.0" configVersion="c4a7853f1cb90d4e9a56419854dacf5600000000"/>
+		<Metadata name="Role.ПолныеПрава" id="cefa970d-c9e8-4e5b-a2d8-4c5b09bcd10d" configVersion="1a2fddc4fd956f4cb283c418dbcc4d9900000000"/>
+		<Metadata name="Role.ПолныеПрава.Rights" id="cefa970d-c9e8-4e5b-a2d8-4c5b09bcd10d.0" configVersion="1d4fec848476254c8c782075acb5273c00000000"/>
 		<Metadata name="Subsystem.НСИ" id="fc0b2555-a51e-41f8-9663-999c8adc2a6f" configVersion="0e9537de2cd4c240bc874fdeacab634900000000"/>
 		<Metadata name="Subsystem.Операции" id="155f1ce0-affc-4364-990f-fce4bf65f0dc" configVersion="c3e74710d5866d4da9e6334fb625aa3100000000"/>
 		<Metadata name="Subsystem.Отчеты" id="d9525ca3-05aa-4912-88c0-a1626d0e9014" configVersion="f92904c49a028d40bfc2131512ecb3b300000000"/>

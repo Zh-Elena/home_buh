@@ -25,6 +25,8 @@ cee078e4-c975-4e49-a53c-bb16571b9240:D87E3A5CB6C0AE0D3D92773367C814B3:3:Informat
 94937f04-1046-4433-a237-ad05b98cc145:3B8A016F8A762B1D56EA2465BBE30DD7:3:Reports\ДенежныеСредстваНаСчетах\ДенежныеСредстваНаСчетах.mdo
 df6516d3-719b-4226-abf5-55ef8d1177dd:451F85438D747B3460BB2F2DF98B0160:3:Reports\ПереченьПродуктов\ПереченьПродуктов.mdo
 6ba7a618-6e74-456b-acb3-46d3e91ca5d0:057109DE6B18D26CF082DA682E210132:3:Reports\ПотребностьВПродуктах\ПотребностьВПродуктах.mdo
+cefa970d-c9e8-4e5b-a2d8-4c5b09bcd10d_Rights.rights:5CA98995FE082AA53B6ADC6EC0C78E6E:3:Roles\ПолныеПрава\Rights.rights
+cefa970d-c9e8-4e5b-a2d8-4c5b09bcd10d:9CC3A5001B637E42CB3EF083001A9DD1:3:Roles\ПолныеПрава\ПолныеПрава.mdo
 fc0b2555-a51e-41f8-9663-999c8adc2a6f:BFE8CB26618387483CDC55B121B1B80F:3:Subsystems\НСИ\НСИ.mdo
 155f1ce0-affc-4364-990f-fce4bf65f0dc:6AE1A391A07A3703A27327F1E9C2C1DD:3:Subsystems\Операции\Операции.mdo
 d9525ca3-05aa-4912-88c0-a1626d0e9014:FA3E3B60653764454BEC5FDDFA51E822:3:Subsystems\Отчеты\Отчеты.mdo
