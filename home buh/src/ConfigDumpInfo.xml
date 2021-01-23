@@ -59,8 +59,8 @@
 			<Metadata name="Document.ПокупкаПродуктов.Attribute.Счет" id="ab6be401-e535-4838-aafe-aec038f7e615"/>
 			<Metadata name="Document.ПокупкаПродуктов.TabularSection.ПокупкаПродуктов.Attribute.ЕдиницаИзмерения" id="eb3a6b76-3ac7-4d70-8fb4-f847d03908c6"/>
 		</Metadata>
-		<Metadata name="Document.ПокупкаПродуктов.Form.ФормаДокумента" id="3e449840-de9a-49a7-a8d0-888e7a351877" configVersion="4451ed11be8c924bad9bd8c65d20f57300000000"/>
-		<Metadata name="Document.ПокупкаПродуктов.Form.ФормаДокумента.Form" id="3e449840-de9a-49a7-a8d0-888e7a351877.0" configVersion="d4c64d882a6b2243819e705e77e3dc2400000000"/>
+		<Metadata name="Document.ПокупкаПродуктов.Form.ФормаДокумента" id="3e449840-de9a-49a7-a8d0-888e7a351877" configVersion="cd04a242aa7f074f91def96d2608ce7a00000000"/>
+		<Metadata name="Document.ПокупкаПродуктов.Form.ФормаДокумента.Form" id="3e449840-de9a-49a7-a8d0-888e7a351877.0" configVersion="cfaa11cda3ef2a4aae9e6037e5fab7e000000000"/>
 		<Metadata name="Document.ПокупкаПродуктов.ObjectModule" id="85da9623-024e-440d-b2de-bda746926e25.0" configVersion="61b9171e311f684cb24c62c53409774a00000000"/>
 		<Metadata name="Document.ПриходДС" id="cf5c97b1-d4fb-4299-9415-971b37e2cab7" configVersion="01a13de4e3a4424589d7262a183c4c1c00000000">
 			<Metadata name="Document.ПриходДС.Attribute.Счет" id="6d700226-4a73-482f-9663-ed1416147912"/>
