@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f4cb39d-4726-47cd-af99-5e64e7f302db">
+  <name>ДомашняяБухгалтерия2021</name>
+  <synonym>
+    <key>ru</key>
+    <value>Домашняя бухгалтерия2021</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="68f73661-8a68-46bf-bda4-39371d0f5f7d"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="1b6f808e-3d4a-4808-8e84-a3e7034d2b62"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="295dc0d4-d035-4d05-a185-bac028fe48cd"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="d1901f3a-8921-439a-bd5d-0b8567d8240a"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="cbf8d869-1617-4a46-8eea-cfc90dcd2b9c"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="1bd0227a-a4b1-40e7-981c-7ec9ea3ca400"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="dd794e6a-51e5-467e-b17f-7934c066ac16"/>
+  <configurationExtensionCompatibilityMode>8.3.17</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <requiredMobileApplicationPermissions>
+    <permission>AllowOSBackup</permission>
+    <use>true</use>
+  </requiredMobileApplicationPermissions>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.14</compatibilityMode>
+  <languages uuid="ed1b9361-83c3-4671-961e-3b6769c3bdb4">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Операции</subsystems>
+  <subsystems>Subsystem.НСИ</subsystems>
+  <subsystems>Subsystem.Отчеты</subsystems>
+  <catalogs>Catalog.Продукты</catalogs>
+  <catalogs>Catalog.Магазины</catalogs>
+  <catalogs>Catalog.СтатьиДвиженияДС</catalogs>
+  <catalogs>Catalog.БанковскиеСчета</catalogs>
+  <catalogs>Catalog.ВидыКонтактнойИнформации</catalogs>
+  <documents>Document.ПокупкаПродуктов</documents>
+  <documents>Document.ПланПокупок</documents>
+  <documents>Document.ПриходДС</documents>
+  <documents>Document.Траты</documents>
+  <documents>Document.ПереводМеждуСчетами</documents>
+  <documentJournals>DocumentJournal.ЖурналДокументов</documentJournals>
+  <enums>Enum.ЕдиницаИзмерения</enums>
+  <enums>Enum.ФизЛицо</enums>
+  <reports>Report.ПереченьПродуктов</reports>
+  <reports>Report.ПотребностьВПродуктах</reports>
+  <reports>Report.ДенежныеСредстваНаСчетах</reports>
+  <informationRegisters>InformationRegister.КонтактнаяИнформацияМагазинов</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ПотребностьВПродуктах</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ДенежныеСредстваНаСчетах</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ДвижениеДСПоСтатьям</accumulationRegisters>
+</mdclass:Configuration>

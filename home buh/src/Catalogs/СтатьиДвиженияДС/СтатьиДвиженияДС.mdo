@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4143ea7e-fefc-4359-9483-8e254f4a6f06">
+  <producedTypes>
+    <objectType typeId="2f219aaa-73c3-4034-b2fb-86c7844539b1" valueTypeId="dc568c14-b064-4f05-b687-1ec63e168866"/>
+    <refType typeId="a1efa222-0fca-4262-880c-987f4c8b4dd7" valueTypeId="0b7666f3-920b-4234-8802-ae68115542c4"/>
+    <selectionType typeId="9d592499-a119-4454-8a86-c79c9cdb9838" valueTypeId="6efcab91-2db4-4365-8b38-f26183a80981"/>
+    <listType typeId="034d0ffc-210e-4cf4-bfcc-27b1be8b758c" valueTypeId="bd13a2ca-432a-4d7b-932a-61d6615c6a32"/>
+    <managerType typeId="179a6699-6f01-495f-b0ac-cd99f10d0e5b" valueTypeId="8360c7b5-b87e-41e2-90e6-cf7dbf146523"/>
+  </producedTypes>
+  <name>СтатьиДвиженияДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статьи движения денежных средств</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СтатьиДвиженияДС.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СтатьиДвиженияДС.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="6e3a3400-9995-4fbd-8607-3bb4225c84a3">
+      <name>ПриходЗП</name>
+      <description>Приход ЗП</description>
+      <code xsi:type="core:StringValue">
+        <value>000000010</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="ae740f3d-69b7-4f7f-a90a-392201db15b6">
+      <name>РасходЗП</name>
+      <description>Расход ЗП</description>
+      <code xsi:type="core:StringValue">
+        <value>000000011</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="6e6daf2d-83fd-47de-be58-f29319a4ea37">
+        <name>ПокупкаПродуктов</name>
+        <description>Покупка продуктов</description>
+        <code xsi:type="core:StringValue">
+          <value>000000012</value>
+        </code>
+      </content>
+    </items>
+    <items id="2c45e5a9-138b-4bde-a0eb-7d3ac3206932">
+      <name>Зарплата</name>
+      <description>Зарплата</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

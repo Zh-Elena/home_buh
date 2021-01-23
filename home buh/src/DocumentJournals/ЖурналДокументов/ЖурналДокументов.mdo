@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="10a864cd-af68-4250-8190-310a5b3656a4">
+  <producedTypes>
+    <selectionType typeId="8fc70b81-99a8-4a22-89c4-ea1d9d258e33" valueTypeId="60ef43bc-9d8a-410b-9bf9-e31d6992b012"/>
+    <listType typeId="f88b9b17-ac48-41dc-8d2b-48a2ab8be54e" valueTypeId="96b578f7-bf24-4862-a7fa-918e00b6c146"/>
+    <managerType typeId="9fb52cff-2358-410e-a00f-34a927f3ed6b" valueTypeId="ded6dbf2-67a6-4c7f-a094-41df890890a7"/>
+  </producedTypes>
+  <name>ЖурналДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал документов</value>
+  </synonym>
+  <defaultForm>DocumentJournal.ЖурналДокументов.Form.ФормаСписка</defaultForm>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.ПокупкаПродуктов</registeredDocuments>
+  <registeredDocuments>Document.ПланПокупок</registeredDocuments>
+  <forms uuid="4d80418e-6f57-49dc-bf5a-edd037dfe403">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

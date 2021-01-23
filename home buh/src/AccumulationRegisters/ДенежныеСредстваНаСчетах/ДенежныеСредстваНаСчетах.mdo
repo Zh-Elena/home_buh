@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="152deb6d-d115-4b0e-91cc-dab565d7275e">
+  <producedTypes>
+    <selectionType typeId="631aa24a-54f0-4405-897d-f049614c93b3" valueTypeId="e64a644e-4fd2-4fb4-ba37-126124e98897"/>
+    <listType typeId="777fff93-4671-4aa3-b9f8-768422364bfe" valueTypeId="68070e5d-a049-4512-98a4-e25b326abada"/>
+    <managerType typeId="f5397610-a80f-4d91-ab03-3858cb273c54" valueTypeId="f595c193-bc69-4eb2-a27e-0c63371f28f0"/>
+    <recordSetType typeId="2e61bfd0-2a0b-453c-aaee-64c49b224540" valueTypeId="47ca59b2-ab28-496d-9ac7-c2ad88cb0386"/>
+    <recordKeyType typeId="232e9876-332f-400b-9d9c-745866c19fd2" valueTypeId="95515c95-0a26-483c-8134-cbd6e13fdae0"/>
+    <recordType typeId="5d4f4852-06bd-417d-a01e-a68e226a5eea" valueTypeId="ac1d7f89-1372-454f-97d8-9c17ba478b72"/>
+  </producedTypes>
+  <name>ДенежныеСредстваНаСчетах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Денежные средства на счетах</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="2e05a173-780f-4611-b0d6-72b37851e54b">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="a151549e-f8cf-4609-8d18-405e9f5814a5">
+    <name>Счет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.БанковскиеСчета</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <forms uuid="36db5059-3f34-4729-a38e-88a377e78664">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:AccumulationRegister>

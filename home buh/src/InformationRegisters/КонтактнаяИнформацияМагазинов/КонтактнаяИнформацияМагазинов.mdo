@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cee078e4-c975-4e49-a53c-bb16571b9240">
+  <producedTypes>
+    <selectionType typeId="7c6927e6-f746-460b-a2cc-f100acd91c51" valueTypeId="37c72f38-a026-4d7c-9abb-593f70fd5d0f"/>
+    <listType typeId="a019ebc4-b9dc-4624-a591-68ef9993836b" valueTypeId="93f9466b-00c2-46b2-b616-b20b58616284"/>
+    <managerType typeId="e2bf8d53-5dda-4685-b4c2-64cfb7b8dfca" valueTypeId="6cc6c2c4-60e7-442b-b5fd-75ef096e019c"/>
+    <recordSetType typeId="0c682264-0b38-413b-bc31-dc241b2f3c9b" valueTypeId="5d445456-6007-446a-9efb-f37158bb2921"/>
+    <recordKeyType typeId="f23bc1e3-9a0c-494c-9033-0c6f55ff4dea" valueTypeId="c3b460bd-86b3-4047-aef8-159dcb517e4d"/>
+    <recordType typeId="729ce947-e42c-46e9-b195-159b4db16233" valueTypeId="0d4b0016-bc6e-4f99-b516-bbb9345ea845"/>
+    <recordManagerType typeId="51be2a9b-c857-4c98-abe7-e92f40bdacf3" valueTypeId="5133ca2d-b036-40fa-80fb-9f7e8eac5afe"/>
+  </producedTypes>
+  <name>КонтактнаяИнформацияМагазинов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контактная информация магазинов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.КонтактнаяИнформацияМагазинов.Form.ФормаЗаписи</defaultRecordForm>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="2a9786d8-bb44-4fed-a567-6121e5e7535c">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="48628a82-ba71-469f-9485-9f76fb023f3c">
+    <name>Магазин</name>
+    <synonym>
+      <key>ru</key>
+      <value>Магазин</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Магазины</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="47069159-250e-455e-9639-7f80eb4b1565">
+    <name>ВидКонтактнойИнформации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид контактной информации</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыКонтактнойИнформации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="f6a13864-f8cb-44ee-83e3-cf26932d2514">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

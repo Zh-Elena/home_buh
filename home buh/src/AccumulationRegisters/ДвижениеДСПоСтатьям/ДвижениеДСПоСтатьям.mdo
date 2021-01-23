@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cc0a3a7e-037a-4e56-9db5-85439984a977">
+  <producedTypes>
+    <selectionType typeId="bf100f43-aa6a-47f7-ab2f-6edfa1d5a47f" valueTypeId="a20f295c-eb86-4086-80fb-974db620ea38"/>
+    <listType typeId="911a4157-4b23-4c0b-95f2-5baeb9e0773e" valueTypeId="170437a0-4811-45b2-99c2-4ef1fac19b2e"/>
+    <managerType typeId="650b834d-150e-4844-8d50-6b3f0cc33f96" valueTypeId="aeb7dc72-1137-47e2-b4ba-651e4b3bb9de"/>
+    <recordSetType typeId="a47584b2-a1fc-406e-8921-199f1c8e42ea" valueTypeId="72c27a24-963b-4931-abbe-3df743c5ecb1"/>
+    <recordKeyType typeId="5e3fa46b-0432-4149-b95d-9799ebada146" valueTypeId="072786eb-4a66-446f-8170-c94a3690bbff"/>
+    <recordType typeId="05bbb039-68d3-40a3-822b-78897fc661c3" valueTypeId="14964349-671e-4604-9023-1b6c6fbaa892"/>
+  </producedTypes>
+  <name>ДвижениеДСПоСтатьям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Движение денежных средств по статьям</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="ace4caf3-a480-435d-8b3b-388b34e6d744">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="21e43ca4-0771-4d4d-9527-fe234c487bb3">
+    <name>ФизЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физ лицо</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ФизЛицо</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="0907d541-02fa-405c-9e84-12fb87d5d224">
+    <name>Статья</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатьиДвиженияДС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>
